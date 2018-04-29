@@ -1,6 +1,8 @@
 {
-  "name": "GitDemo",
+  "name": "MyAppTabs",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }

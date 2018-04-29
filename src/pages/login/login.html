@@ -1,0 +1,43 @@
+
+  <ion-navbar>
+    <ion-title>Aleksi's Cv</ion-title>
+  </ion-navbar>
+  <ion-content class="bg-image no-scroll" padding>
+
+      <img src="assets/imgs/cv_kuva.png" class="logo">
+
+      <div>
+
+        <ion-list class="list" inset>
+          <ion-item class="label">
+        <ion-label color="myWhite" style="font-size:12px" stacked>Username</ion-label>
+        <ion-input type="text" placeholder="Enter Username"></ion-input>
+      </ion-item>
+
+      <ion-item class="label">
+        <ion-label color="myWhite" style="font-size:12px" stacked>Password</ion-label>
+        <ion-input color="myWhite" type="password" placeholder="Enter Password"></ion-input>
+      </ion-item>
+      </ion-list>
+      </div>
+
+      <p class="text" style="font-family:open-sans; font-size:14px; color: #ebebeb">Forgot your password?</p>
+
+      <div text-center>
+        <button class="btnWidth" ion-button color="secondary" ion-button round (click)="doLogin()">Login</button>
+      </div>
+
+      <div text-center>
+          <button class="myButton" ion-button color="myWhite" round outline [navPush]="nextPage">Sign Up</button>
+        </div>
+
+     
+        <form>
+          <input type="button" value="Facebook" onclick="window.location.href='http://www.facebook.com'" />
+          </form> 
+
+         <form>
+          <input type="button" value="Twitter" onclick="window.location.href='http://www.twitter.com'" />
+          </form> 
+
+      </ion-content>
